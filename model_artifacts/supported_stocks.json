@@ -1,0 +1,713 @@
+{
+  "trained_on": [
+    {
+      "symbol": "TCS",
+      "ticker": "TCS",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "RELIANCE",
+      "ticker": "RELIANCE",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "INFY",
+      "ticker": "INFY",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "ticker": "HDFCBANK",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "ticker": "ICICIBANK",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "SBIN",
+      "ticker": "SBIN",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "AXISBANK",
+      "ticker": "AXISBANK",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "ticker": "BAJFINANCE",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "MARUTI",
+      "ticker": "MARUTI",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "IRCTC",
+      "ticker": "IRCTC",
+      "rows": 1046,
+      "first_date": "2019-10-14",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "ticker": "TATASTEEL",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "ticker": "INDUSINDBK",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "ticker": "BHARTIARTL",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "ticker": "SUNPHARMA",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ITC",
+      "ticker": "ITC",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "LT",
+      "ticker": "LT",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "ticker": "KOTAKBANK",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "ticker": "HINDUNILVR",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "DRREDDY",
+      "ticker": "DRREDDY",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "VEDL",
+      "ticker": "VEDL",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "HCLTECH",
+      "ticker": "HCLTECH",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BPCL",
+      "ticker": "BPCL",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BANDHANBNK",
+      "ticker": "BANDHANBNK",
+      "rows": 1423,
+      "first_date": "2018-03-27",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "EICHERMOT",
+      "ticker": "EICHERMOT",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "AUROPHARMA",
+      "ticker": "AUROPHARMA",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "ticker": "ASIANPAINT",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "HINDALCO",
+      "ticker": "HINDALCO",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "ticker": "HEROMOTOCO",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "TECHM",
+      "ticker": "TECHM",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BANKBARODA",
+      "ticker": "BANKBARODA",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "PNB",
+      "ticker": "PNB",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "CIPLA",
+      "ticker": "CIPLA",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "TITAN",
+      "ticker": "TITAN",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "ticker": "BAJAJFINSV",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "ticker": "ADANIPORTS",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "ticker": "HDFCLIFE",
+      "rows": 1511,
+      "first_date": "2017-11-17",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "WIPRO",
+      "ticker": "WIPRO",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "ticker": "JSWSTEEL",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "ticker": "ULTRACEMCO",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "IOC",
+      "ticker": "IOC",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ONGC",
+      "ticker": "ONGC",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "COALINDIA",
+      "ticker": "COALINDIA",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "JUBLFOOD",
+      "ticker": "JUBLFOOD",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "CANBK",
+      "ticker": "CANBK",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "ticker": "BAJAJ-AUTO",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "DIVISLAB",
+      "ticker": "DIVISLAB",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "DMART",
+      "ticker": "DMART",
+      "rows": 1676,
+      "first_date": "2017-03-21",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ADANIENT",
+      "ticker": "ADANIENT",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "NTPC",
+      "ticker": "NTPC",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "POWERGRID",
+      "ticker": "POWERGRID",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "MOTHERSON",
+      "ticker": "MOTHERSON",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "SBILIFE",
+      "ticker": "SBILIFE",
+      "rows": 1543,
+      "first_date": "2017-10-03",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "GRASIM",
+      "ticker": "GRASIM",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BRITANNIA",
+      "ticker": "BRITANNIA",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BHEL",
+      "ticker": "BHEL",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "ticker": "FEDERALBNK",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "ticker": "APOLLOHOSP",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "TATACONSUM",
+      "ticker": "TATACONSUM",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "HAVELLS",
+      "ticker": "HAVELLS",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BEL",
+      "ticker": "BEL",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "NESTLEIND",
+      "ticker": "NESTLEIND",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "VOLTAS",
+      "ticker": "VOLTAS",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "RECLTD",
+      "ticker": "RECLTD",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "TATAELXSI",
+      "ticker": "TATAELXSI",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ADANIGREEN",
+      "ticker": "ADANIGREEN",
+      "rows": 1367,
+      "first_date": "2018-06-18",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "ticker": "IDFCFIRSTB",
+      "rows": 2011,
+      "first_date": "2015-11-06",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "DABUR",
+      "ticker": "DABUR",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ICICIGI",
+      "ticker": "ICICIGI",
+      "rows": 1546,
+      "first_date": "2017-09-27",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "TATAPOWER",
+      "ticker": "TATAPOWER",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "PFC",
+      "ticker": "PFC",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "COFORGE",
+      "ticker": "COFORGE",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "GODREJCP",
+      "ticker": "GODREJCP",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "PIDILITIND",
+      "ticker": "PIDILITIND",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "UNIONBANK",
+      "ticker": "UNIONBANK",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "POLYCAB",
+      "ticker": "POLYCAB",
+      "rows": 1164,
+      "first_date": "2019-04-16",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "DIXON",
+      "ticker": "DIXON",
+      "rows": 1553,
+      "first_date": "2017-09-18",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "MARICO",
+      "ticker": "MARICO",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "COLPAL",
+      "ticker": "COLPAL",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "TORNTPHARM",
+      "ticker": "TORNTPHARM",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BOSCHLTD",
+      "ticker": "BOSCHLTD",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "FORTIS",
+      "ticker": "FORTIS",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "LTIM",
+      "ticker": "LTIM",
+      "rows": 1839,
+      "first_date": "2016-07-21",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "SIEMENS",
+      "ticker": "SIEMENS",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "HAL",
+      "ticker": "HAL",
+      "rows": 1421,
+      "first_date": "2018-04-02",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "METROPOLIS",
+      "ticker": "METROPOLIS",
+      "rows": 1165,
+      "first_date": "2019-04-15",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "ticker": "CUMMINSIND",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "BERGEPAINT",
+      "ticker": "BERGEPAINT",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "LTTS",
+      "ticker": "LTTS",
+      "rows": 1796,
+      "first_date": "2016-09-23",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "KPITTECH",
+      "ticker": "KPITTECH",
+      "rows": 1162,
+      "first_date": "2019-04-22",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "LALPATHLAB",
+      "ticker": "LALPATHLAB",
+      "rows": 1981,
+      "first_date": "2015-12-23",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "IPCALAB",
+      "ticker": "IPCALAB",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "MPHASIS",
+      "ticker": "MPHASIS",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ALKEM",
+      "ticker": "ALKEM",
+      "rows": 1981,
+      "first_date": "2015-12-23",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "EMAMILTD",
+      "ticker": "EMAMILTD",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "OFSS",
+      "ticker": "OFSS",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "PFIZER",
+      "ticker": "PFIZER",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "ABB",
+      "ticker": "ABB",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "PERSISTENT",
+      "ticker": "PERSISTENT",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "WHIRLPOOL",
+      "ticker": "WHIRLPOOL",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    },
+    {
+      "symbol": "SANOFI",
+      "ticker": "SANOFI",
+      "rows": 2221,
+      "first_date": "2015-01-01",
+      "last_date": "2023-12-29"
+    }
+  ],
+  "other_dataset_symbols_not_in_training_universe": [
+    "ABBOTINDIA",
+    "GLAXO",
+    "IRFC",
+    "MAXHEALTH",
+    "NYKAA",
+    "PAYTM"
+  ],
+  "note": "The model is built from relative features only, so it can be applied to any stock with enough price history; reliability is only measured for the stocks in 'trained_on'."
+}

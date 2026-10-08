@@ -1,0 +1,94 @@
+{
+  "project_title": "Universal Stock Direction Prediction Using Genetic Algorithm and XGBoost with LSTM",
+  "dataset_handle": "manavanghan/nse-india-stock-market-data-2015-2024",
+  "data_file": "nifty500_stocks.csv",
+  "symbol_column": "Symbol",
+  "target_stock_in_this_run": "TCS",
+  "quick_mode": false,
+  "seed": 42,
+  "use_adj_close": false,
+  "split": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15,
+    "per_stock": true,
+    "embargo_rows": 1
+  },
+  "target_definition": "UP=1 if Close[t+1]/Close[t]-1 > 0 else DOWN=0",
+  "thresholds": {
+    "Majority Baseline": 0.0,
+    "OHLCV XGBoost": 0.515,
+    "Expanded Feature XGBoost": 0.5,
+    "GA-XGBoost": 0.505,
+    "GA-selected features (GA-sample XGB)": 0.505,
+    "GA-XGBoost (tuned)": 0.5,
+    "Universal LSTM": 0.505
+  },
+  "threshold_mode": "val_balanced_accuracy",
+  "xgb_params": {
+    "n_estimators": 100,
+    "max_depth": 4,
+    "learning_rate": 0.1,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "tree_method": "hist",
+    "n_jobs": -1,
+    "random_state": 42
+  },
+  "tuned_params": {
+    "max_depth": 5,
+    "learning_rate": 0.01,
+    "n_estimators": 500,
+    "subsample": 0.8,
+    "colsample_bytree": 0.9,
+    "min_child_weight": 5,
+    "reg_lambda": 1,
+    "gamma": 5
+  },
+  "ga": {
+    "population": 8,
+    "generations": 30,
+    "crossover": 0.5,
+    "mutation": 0.375,
+    "elitism": 1,
+    "tournament_k": 3,
+    "fitness": "validation classification accuracy (no feature penalty)",
+    "ga_xgb_trees": 50,
+    "ga_train_rows": 140204,
+    "ga_val_rows": 29958,
+    "best_validation_accuracy": 0.518158755591161
+  },
+  "lstm": {
+    "window": 60,
+    "clip_z": 5.0,
+    "batch_size": 512,
+    "epochs_trained": 9,
+    "architecture": "LSTM64(seq)-Dropout0.2-LSTM32-Dropout0.2-Dense16relu-Dense1sigmoid"
+  },
+  "feature_engineering": {
+    "module": "feature_engineering.py",
+    "version": "1.0",
+    "talib_hilbert_features_used": false,
+    "max_warmup_rows": 99,
+    "min_rows_needed_for_lstm_inference": 159,
+    "inference_recipe": [
+      "sort one stock's OHLCV by Date",
+      "feature_engineering.build_features_for_stock(df)",
+      "xgboost: take ga_selected_features of the LAST row -> predict_proba",
+      "lstm: take lstm_features of the last 60 rows -> scaler.transform -> clip to +/-clip_z -> model.predict"
+    ]
+  },
+  "n_features_before_ga": 84,
+  "n_features_after_ga": 43,
+  "universe_size": 100,
+  "leakage_audit_all_passed": true,
+  "package_versions": {
+    "xgboost": "3.4.1",
+    "tensorflow": "2.20.0",
+    "pandas": "2.3.3",
+    "numpy": "2.1.3"
+  },
+  "disclaimer": "Educational project. Next-day direction is hard to predict; do not use for real trading decisions."
+}
